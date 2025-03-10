@@ -40,3 +40,17 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# YAML files
+*.yml
+*.yaml
+# Keep Kubernetes config files
+Microservices/*.yml
+Microservices/*.yaml
+Microservices/
+
+# Application properties
+application-*.yml
+application.yml
+application-*.properties
+application.properties

@@ -45,9 +45,8 @@ bin/
 *.yml
 *.yaml
 # Keep Kubernetes config files
-Microservices/*.yml
+!Microservices/*.yml
 Microservices/*.yaml
-Microservices/
 
 # Application properties
 application-*.yml
